@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Arbre Group</title>
+  <link rel="icon" href="img/logo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <!-- normalize css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <!-- reset css -->
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <!-- aos -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- my css -->
+  <link rel="stylesheet" href="styles/fonts.css">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<body>
+
+  <!-- header -->
+  <header class="parallax bg1" id="header">
+    <!-- navbar -->
+    <nav class="navbar d-flex justify-content-between col-12" data-spy="affix">
+      <div class="mainLogo">
+        <img src="img/logo1.png" alt="" class="arbreLogo">
+      </div>
+      <div class="d-flex align-items-center">
+        <p class="languageOptions">AZ</p>
+        <div id="openToggleIcon" class="openToggleIcon d-flex align-items-center">
+          <div id="nav-icon4" class="d-flex flex-column justify-content-center">
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+
+    <!-- slider section (includes headings:we design etc.) -->
+    <div id="slider" class="slider d-flex align-items-center row">
+
+      <div class="sliderContent col">
+        <div class="sliderCenter">
+
+          <div class="col-md-12 d-flex justify-content-sm-center justify-content-md-center ">
+            <p><span class="span1"></span> <span class="span2"></span></p>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- sidebar -->
+    <!-- sidebar -->
+    <div class="sideBar" id="sideBar">
+      <div class="row">
+        <div class="col-sm-12 col-md-4" id="homeButton" onclick="myfunc()">
+           <p class="text-center">HOME</p>
+        </div>
+        <div class="col-sm-12 col-md-4 mx-md-auto">
+          <p class="text-center servicesButton serviceHover text-center" id="servicesButton">SERVICES</p>
+
+          <ul class="servicesSubCategories" id="servicesSubCategories">
+            <li>
+              <h1 class="text-center apps col-sm-12">APP DEVELOPMENT </h1>
+            </li>
+            <li>
+              <h1 class="text-center col-sm-12">GRAPHIC DESIGN </h1>
+            </li>
+            <li>
+              <h1 class="text-center col-sm-12 m-0 p-0">FILM/</h1>
+              <h1 class="text-center col-sm-12 m-0 p-0">PHOTOGRAPHY</h1>
+            </li>
+          </ul>
+        </div>
+        <div class="col-sm-12 col-md-4" id="contactButton" onclick="myfunc()">
+          <p class="text-center">CONTACTS</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+  <!-- work section new -->
+  <section class="workSection" id="workSection">
+    <div class="container-fluid">
+      <div class="row">
+        <!-- leftside -->
+        <div class="col-md-6 col-sm-6 col-12 work-left">
+          <ul class="work">
+            <li class="work-img">
+              <img src="img/work01.png" align="film-photo" class="img-fluid " id="filmPhoto">
+              <div class="work-title text-center">
+                <h2>Film <br>Photography</h2>
+              </div>
+            </li>
+            <li class="work-overlay" id="work-overlay">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-6 left">
+                  <div>
+                    <img src="img/work03.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6 right">
+                  <div class="item">
+                    <div>
+                      <img src="img/work04.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div style="height:100%;">
+                      <img src="img/work05.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                    </div>
+                  </div>
+                </div>
+                <a href="film.html" class="overlay-btn zoomOutEffect">MORE</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <!-- rightside -->
+        <div class="col-md-6 col-sm-6 col-12 work-right">
+          <ul class="work">
+            <li class="work-img">
+              <img src="img/work02.png" align="film-photo" class="img-fluid">
+              <div class="work-title text-center">
+                <h2>Graphic <br>Arts</h2>
+              </div>
+            </li>
+            <li class="work-overlay">
+              <div class="row">
+                <div class="col-md-6 col-sm-6 col-6">
+                  <div class="col-md-12 col-sm-12 item">
+                    <div>
+                      <img src="img/work07.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12 item">
+                    <div style="height:100%;">
+                      <img src="img/east-newsimg.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-6">
+                  <div class="col-md-12 col-sm-12 item">
+                    <div>
+                      <img src="img/academia.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-sm-12 item">
+                    <div>
+                      <img src="img/work10.png" alt="..." class="img-fluid zoominEffect" id="zoomImage">
+                    </div>
+                  </div>
+                </div>
+                <a href="film.html" class="overlay-btn zoomOutEffect">MORE</a>
+              </div>
+            </li>
+        </div>
+        </ul>
+      </div>
+    </div>
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+      <span class="close">&times;</span>
+      <img class="modal-content" id="img01">
+      <div id="caption"></div>
+    </div>
+  </section>
+
+  <!-- solutions and portfolio -->
+  <section id="solutionsAndPortfolio" class="solutionsAndPortfolio ">
+    <div class="mainSolution">
+      <!-- solutions section -->
+      <div class="solutions d-flex flex-wrap align-items-center">
+        <div class="row solutionsHeader d-flex  flex-wrap justify-content-center">
+          <img class="solutionsLogo" src="img/sollution.png" alt="">
+          <p class="text-center logoUnder">Arbre Solutions strictly dedicates itself to mobile app development and
+            design in a
+            professional level. Our team consists of foreign-educated com-puter engineers who are passionate to deliver
+            best in the market applications following high quality standards</p>
+        </div>
+
+        <!-- solutions subcategories (3 rows) -->
+        <ul class="d-flex flex-wrap solutionsExplanation justify-content-center">
+          <li class="col-sm-12 col-md-4 text-center d-sm-flex flex-sm-wrap justify-content-sm-center">
+            <h1 class="text-center solutionsExplanationHeading1">Dedication</h1>
+            <p class="text-center solutionsExplanationHover1 solutionsUnder">Arbre Solutions strognly dedicates itself
+              to
+              mobileapplication development and design
+              aiming toprovide best possible service in the sector</p>
+          </li>
+          <li class="col-12 col-sm-12 col-md-4 text-center ">
+            <h1 class="text-center solutionsExplanationHeading2">Coding</h1>
+            <ul class="text-center solutionsUnder">
+              <li>Our foreign-educateddevelopers are masters of:</li>
+              <li>iOS</li>
+              <li>Android</li>
+              <li>Mobile Backend Services</li>
+              <li>Services</li>
+              <li>Hybrid App Developmentt</li>
+            </ul>
+          </li>
+          <li class="col-12 col-sm-12 col-md-4 text-center ">
+            <h1 class="text-center solutionsExplanationHeading3">UI/UX Design</h1>
+            <ul class="text-center solutionsUnder">
+              <li>Award winning UI/UX </li>
+              <li>designs for any software including: </li>
+              <li>Mobile Applications</li>
+              <li>Desktop Software</li>
+              <li>Websites</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+
+      <!-- yellowPortfolio section -->
+      <div id="portfolio" class="portfolio container">
+          <div class="row d-flex  justify-content-center portfolioRow">
+              <div class="col-sm-12 col-md-3 hoverable">
+                <div class="logo logo1 d-flex justify-content-center"><img src="img//solutionLogos/en1.png" alt=""></div>
+                <div class="text"><p class="text-center textBox">We also provide separate UI/UX design services to different development companies.An app created in collaboration with our business partner has also won an award on best game category.</p></div>
+              </div>
+              <div class="col-sm-12 col-md-3 hoverable">
+                <div class="logo logo d-flex justify-content-center"><img src="img//solutionLogos/bankofbaku1.png" alt=""></div>
+                <div class="text"><p class="text-center textBox">We also provide separate UI/UX design services to different development companies.An app created in collaboration with our business partner has also won an award on best game category.</p></div>
+              </div>
+              <div class="col-sm-12 col-md-3 hoverable">
+                <div class="logo logo3 d-flex justify-content-center"><img src="img//solutionLogos/indream2.png" alt=""></div>
+                <div class="text"><p class="text-center textBox">We also provide separate UI/UX design services to different development companies.An app created in collaboration with our business partner has also won an award on best game category.</p></div>
+              </div>
+              <div class="col-sm-12 col-md-3 hoverable">
+                <div class="logo logo4 d-flex justify-content-center"><img src="img/solutionLogos/mobilla2.png" alt=""></div>
+                <div class="text"><p class="text-center textBox">We also provide separate UI/UX design services to different development companies.An app created in collaboration with our business partner has also won an award on best game category.</p></div>
+              </div>
+            </div>
+          </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- team section -->
+  <section class="team d-flex flex-wrap align-items-center justify-content-center" data-aos="fade-up">
+    <p class="text-center">Our Team Worked For:</p>
+    <img src="img/team.png" class="teamImage" alt="">
+  </section>
+
+  <!-- contacts section -->
+  <section id="contacts" class="contacts" data-aos="fade-up">
+    <ul class="row contactsInfo">
+      <li class="col-12  contactsHeadings">
+        <p class="text-center contactsHeading1">contacts</p>
+        <p class="text-center contactsHeading2">Do nothesitate to contact us:</p>
+      </li>
+    </ul>
+    <div class="row socialsAndContacts d-flex justify-content-between">
+      <!-- social networks section -->
+      <div class="col-xs-12 col-sm-12 col-md-4 socialsCol">
+        <ul class="socials">
+          <li class="facebook " id="facebook">
+            <img src="img/adult-agency-business-380769.jpg" alt="" class="img-fluid socialsBg">
+            <span class="overlayBlur"></span>
+            <span class="overlayBlurWhite"></span>
+            <img src="img/fb-txt.png" alt="" class="overlaySocialLogo logoFace img-fluid">
+          </li>
+          <li class="instagram" id="instagram">
+            <img src="img/insta-back-m.jpg" alt="" class="img-fluid">
+            <span class="overlayBlur"></span>
+            <span class="overlayBlurWhite"></span>
+            <img src="img/insta-txt.png" alt="" class="overlaySocialLogo logoInsta img-fluid">
+          </li>
+          <li class="youtube" id="youtube">
+            <img src="img/you-back-m.jpg" alt="" class="img-fluid">
+            <span class="overlayBlur"></span>
+            <span class="overlayBlurWhite"></span>
+            <img src="img/you-txt.png" alt="" class="overlaySocialLogo logoYou  img-fluid">
+          </li>
+        </ul>
+      </div>
+      <!-- contact-inputs -->
+      <div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 contactInputsCol">
+        <form action="">
+          <div class="row firsRow d-flex justify-content-center m-0 p-0">
+            <div class="col-md-8 m-0 p-0">
+              <div class="row m-0 p-0">
+                <div class="col-md-6 m-0 ">
+                  <input type="text" class="form-control nameInput inputBg  rounded-0" id="" placeholder="name">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row twoCols d-flex justify-content-center">
+            <div class="col-md-4">
+              <input type="email" class="form-control emailInput inputBg rounded-0" id="exampleInputEmail1"
+                aria-describedby="emailHelp" placeholder="  e-mail">
+            </div>
+            <div class="col-md-4">
+              <input type="text" class="form-control inputBg phoneInput rounded-0" id="" placeholder="  phone">
+            </div>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <textarea type="text" class="form-control inputBg rounded-0 col-md-8" id=""
+              placeholder="message"></textarea>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8 d-flex justify-content-end">
+              <button type="submit" class="btn rounded-0">Send</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer class="m-0 p-0">
+    <ul class="d-flex flex-wrap justify-content-between p-0 px-3 my-0 align-items-center">
+      <li class="d-flex align-items-center m-0 p-0">
+        <p>©2019 Arbre™ all rights reserved</p>
+      </li>
+      <li class="d-flex align-items-center">
+        <p>crm@arbre-group.com</p>
+      </li>
+    </ul>
+  </footer>
+
+
+  <!-- Optional JavaScript -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="scripts/scripts.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>

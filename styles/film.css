@@ -1,0 +1,206 @@
+.filmBody {
+  font-family: 'ITC Leawood Bold';
+  letter-spacing: -3px;
+}
+.filmBody .filmMainHeading {
+  font-size: 48px;
+}
+.filmBody .filmSecondaryHeading {
+  font-size: 30px;
+}
+.filmBody ul {
+  margin-top: 65px;
+}
+.filmBody li {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.filmBody li img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.filmBody .landscapeBox {
+  height: 399px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.filmBody .landscapeBoxDouble {
+  box-sizing: border-box;
+  overflow: hidden;
+  position: relative;
+}
+@media only screen and (min-width: 768px) {
+  .filmBody .landscapeBoxDouble .landscapeBox1 {
+    position: absolute;
+    height: 50%;
+    top: 0;
+    left: 0;
+  }
+  .filmBody .landscapeBoxDouble .landscapeBox2 {
+    position: absolute;
+    height: 50%;
+    top: 50%;
+    left: 0%;
+  }
+  .filmBody .landscapeBoxDouble .bina {
+    height: 100%;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .filmBody .portraitRow {
+    height: 400px;
+  }
+  .filmBody .portraitRow li {
+    height: 400px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+}
+.filmBody .portraitRow img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.filmBody .foodBox {
+  height: 195px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .filmBody .foodBox img {
+    height: 195px;
+    max-width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .filmBody .foodBox img {
+    height: auto;
+    width: 100%;
+  }
+}
+.filmBody .logobox {
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.filmBody .logobox img {
+  width: 100%;
+  height: 100%;
+}
+.filmBody .printBox {
+  height: 200px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+.filmBody .printBox img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Style the Image Used to Trigger the Modal */
+.myImg {
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.myImg:hover {
+  opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  max-width: 100%;
+  /* Full width */
+  height: 100vh;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: black;
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.9);
+  /* Black w/ opacity */
+}
+
+/* Modal Content (Image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+  }
+}
+@keyframes zoom {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 768px) {
+  .modal-content {
+    width: 100%;
+  }
+}
